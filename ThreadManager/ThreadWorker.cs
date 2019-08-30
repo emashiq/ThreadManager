@@ -34,7 +34,7 @@ namespace ThreadManager
 
         public List<TMThread> GetAllThreads => threads.ToValueList();
 
-        public void AddThread(TMThread thread, string threadName) => threads.Add(threadName, thread);
+        public void AddThread(TMThread thread, string threadName) => threads.Add(threadName+Guid.NewGuid().ToString(), thread);
         public void AddThread(List<TMThread> threads) => threads.AddRange(threads);
         public void AddThread(Dictionary<string, TMThread> thread,bool CanPerformSameWorkMultipletime)
         {

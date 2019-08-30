@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Ashiqur Rahman Emran</Authors>
+    <Company>Self Org</Company>
+    <Copyright>Ashiqur Rahman Emran</Copyright>
+    <PackageProjectUrl>https://github.com/emashiq/ThreadManager</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/emashiq/ThreadManager</RepositoryUrl>
+    <RepositoryType>.NET 2.0 Standard Library</RepositoryType>
+    <PackageTags>csharp,multithreading,threading,multithreading-in-csharp,multithreading-library</PackageTags>
+    <PackageReleaseNotes>This is the first stage of this work where we can work multiple items at a time using different threads.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>C# Multi threading programming working library.
+
+This library will help us to manage large set of work in different pipeline.</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
